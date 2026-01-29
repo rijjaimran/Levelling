@@ -30,7 +30,7 @@ nav span {
 
 /* Hero */
 .hero {
-  padding: 80px 60px 60px;
+  padding: 80px 60px 40px;
 }
 
 .brand {
@@ -56,18 +56,45 @@ h1 {
   display: block;
 }
 
-/* Content sections */
-section {
-  max-width: 900px;
-  margin: 40px auto;
+/* Mission line */
+.mission {
+  max-width: 600px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+/* Left-aligned sections */
+.left-section {
+  max-width: 700px;
+  margin-left: 60px;
+  margin-top: 40px;
   background: white;
   padding: 30px;
   border-radius: 14px;
 }
 
-h2 {
+.left-section h2 {
   margin-top: 0;
 }
+
+/* Resource links */
+.resource-links {
+  padding-left: 20px;
+}
+
+.resource-links li {
+  margin-bottom: 12px;
+}
+
+.resource-links a {
+  color: #222;
+  text-decoration: none;
+}
+
+.resource-links a:hover {
+  text-decoration: underline;
+}
+
 
 
 
